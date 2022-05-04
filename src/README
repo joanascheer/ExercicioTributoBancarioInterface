@@ -1,0 +1,12 @@
+Nosso banco precisa tributar dinheiro de alguns bens que nossos
+clientes possuem. Para isso, vamos criar uma interface para o calculo
+dos tributos.
+Lemos essa interface da seguinte maneira: "todos que quiserem ser
+tributável precisam saber calcular tributos, devolvendo um double".
+Alguns bens são tributáveis e outros não,
+a. ContaPoupanca não é tributável
+b. já para ContaCorrente você precisa pagar 1% da conta
+c. SeguroDeVida tem uma taxa fixa de 42 reais.
+
+Escreva classes que implementem esta interface e calculem o
+tributo de acordo com a regra de negócio acima.
